@@ -12,12 +12,12 @@ enum PieceColor {
   case black
   case white
   
-  var color: Color {
+  var shape: String {
     switch self {
     case .black:
-      return .black
+      return "♟"
     case .white:
-      return .white
+      return "♙"
     }
   }
 }

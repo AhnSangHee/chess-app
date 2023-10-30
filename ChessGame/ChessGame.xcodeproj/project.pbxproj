@@ -19,6 +19,11 @@
 		5C5BFD662AECC95F00D6B5A0 /* PieceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD652AECC95F00D6B5A0 /* PieceType.swift */; };
 		5C5BFD682AECD08700D6B5A0 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD672AECD08700D6B5A0 /* Pawn.swift */; };
 		5C5BFD6E2AEF3D3100D6B5A0 /* PieceColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD6D2AEF3D3100D6B5A0 /* PieceColor.swift */; };
+		5C5BFD712AEF526100D6B5A0 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD632AECC87F00D6B5A0 /* Piece.swift */; };
+		5C5BFD722AEF526900D6B5A0 /* PieceColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD6D2AEF3D3100D6B5A0 /* PieceColor.swift */; };
+		5C5BFD732AEF526D00D6B5A0 /* PieceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD652AECC95F00D6B5A0 /* PieceType.swift */; };
+		5C5BFD742AEF526F00D6B5A0 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD5E2AECC32300D6B5A0 /* Position.swift */; };
+		5C5BFD752AEF527600D6B5A0 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD672AECD08700D6B5A0 /* Pawn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -247,8 +252,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5BFD722AEF526900D6B5A0 /* PieceColor.swift in Sources */,
+				5C5BFD752AEF527600D6B5A0 /* Pawn.swift in Sources */,
 				5C5BFD622AECC64A00D6B5A0 /* Board.swift in Sources */,
+				5C5BFD742AEF526F00D6B5A0 /* Position.swift in Sources */,
+				5C5BFD732AEF526D00D6B5A0 /* PieceType.swift in Sources */,
 				5C5BFD582AECC17C00D6B5A0 /* ChessGameTests.swift in Sources */,
+				5C5BFD712AEF526100D6B5A0 /* Piece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

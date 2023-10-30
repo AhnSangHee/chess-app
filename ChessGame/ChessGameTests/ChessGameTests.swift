@@ -13,15 +13,30 @@ final class ChessGameTests: XCTestCase {
   
   override func setUpWithError() throws {
     sut = Board()
+    
     try super.setUpWithError()
   }
   
   override func tearDownWithError() throws {
     sut = nil
+    
     try super.tearDownWithError()
   }
   
   func test_체스보드가_초기화됨() {
-    sut.display()
+    // given
+    let board = [
+      [".", ".", ".", ".", ".", ".", ".", "."],
+      ["♟", "♟", "♟", "♟", "♟", "♟", "♟", "♟"],
+      [".", ".", ".", ".", ".", ".", ".", "."],
+      [".", ".", ".", ".", ".", ".", ".", "."],
+      [".", ".", ".", ".", ".", ".", ".", "."],
+      [".", ".", ".", ".", ".", ".", ".", "."],
+      ["♙", "♙", "♙", "♙", "♙", "♙", "♙", "♙"],
+      [".", ".", ".", ".", ".", ".", ".", "."]
+    ]
+    
+    // when, then
+    XCTAssertEqual(sut.display(), board)
   }
 }
