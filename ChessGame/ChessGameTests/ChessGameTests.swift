@@ -9,4 +9,19 @@ import XCTest
 
 final class ChessGameTests: XCTestCase {
   
+  private var sut: Board!
+  
+  override func setUpWithError() throws {
+    sut = Board()
+    try super.setUpWithError()
+  }
+  
+  override func tearDownWithError() throws {
+    sut = nil
+    try super.tearDownWithError()
+  }
+  
+  func test_체스보드가_초기화됨() {
+    sut.display()
+  }
 }

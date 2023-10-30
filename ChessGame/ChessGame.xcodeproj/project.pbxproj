@@ -12,6 +12,13 @@
 		5C56C8F02ADB756000A7ECE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C56C8EF2ADB756000A7ECE0 /* Assets.xcassets */; };
 		5C56C8F32ADB756000A7ECE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C56C8F22ADB756000A7ECE0 /* Preview Assets.xcassets */; };
 		5C5BFD582AECC17C00D6B5A0 /* ChessGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD572AECC17C00D6B5A0 /* ChessGameTests.swift */; };
+		5C5BFD5F2AECC32300D6B5A0 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD5E2AECC32300D6B5A0 /* Position.swift */; };
+		5C5BFD612AECC34300D6B5A0 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD602AECC34300D6B5A0 /* Board.swift */; };
+		5C5BFD622AECC64A00D6B5A0 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD602AECC34300D6B5A0 /* Board.swift */; };
+		5C5BFD642AECC87F00D6B5A0 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD632AECC87F00D6B5A0 /* Piece.swift */; };
+		5C5BFD662AECC95F00D6B5A0 /* PieceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD652AECC95F00D6B5A0 /* PieceType.swift */; };
+		5C5BFD682AECD08700D6B5A0 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD672AECD08700D6B5A0 /* Pawn.swift */; };
+		5C5BFD6E2AEF3D3100D6B5A0 /* PieceColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD6D2AEF3D3100D6B5A0 /* PieceColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,12 @@
 		5C56C8F22ADB756000A7ECE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C5BFD552AECC17C00D6B5A0 /* ChessGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5BFD572AECC17C00D6B5A0 /* ChessGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessGameTests.swift; sourceTree = "<group>"; };
+		5C5BFD5E2AECC32300D6B5A0 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		5C5BFD602AECC34300D6B5A0 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		5C5BFD632AECC87F00D6B5A0 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		5C5BFD652AECC95F00D6B5A0 /* PieceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceType.swift; sourceTree = "<group>"; };
+		5C5BFD672AECD08700D6B5A0 /* Pawn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pawn.swift; sourceTree = "<group>"; };
+		5C5BFD6D2AEF3D3100D6B5A0 /* PieceColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +86,13 @@
 		5C56C8EA2ADB755F00A7ECE0 /* ChessGame */ = {
 			isa = PBXGroup;
 			children = (
+				5C5BFD6F2AEF41BF00D6B5A0 /* Piece */,
 				5C56C8EB2ADB755F00A7ECE0 /* ChessGameApp.swift */,
 				5C56C8ED2ADB755F00A7ECE0 /* ContentView.swift */,
 				5C56C8EF2ADB756000A7ECE0 /* Assets.xcassets */,
 				5C56C8F12ADB756000A7ECE0 /* Preview Content */,
+				5C5BFD5E2AECC32300D6B5A0 /* Position.swift */,
+				5C5BFD602AECC34300D6B5A0 /* Board.swift */,
 			);
 			path = ChessGame;
 			sourceTree = "<group>";
@@ -95,6 +111,25 @@
 				5C5BFD572AECC17C00D6B5A0 /* ChessGameTests.swift */,
 			);
 			path = ChessGameTests;
+			sourceTree = "<group>";
+		};
+		5C5BFD6F2AEF41BF00D6B5A0 /* Piece */ = {
+			isa = PBXGroup;
+			children = (
+				5C5BFD702AEF41E100D6B5A0 /* PieceType */,
+				5C5BFD6D2AEF3D3100D6B5A0 /* PieceColor.swift */,
+				5C5BFD632AECC87F00D6B5A0 /* Piece.swift */,
+				5C5BFD652AECC95F00D6B5A0 /* PieceType.swift */,
+			);
+			path = Piece;
+			sourceTree = "<group>";
+		};
+		5C5BFD702AEF41E100D6B5A0 /* PieceType */ = {
+			isa = PBXGroup;
+			children = (
+				5C5BFD672AECD08700D6B5A0 /* Pawn.swift */,
+			);
+			path = PieceType;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +232,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5BFD6E2AEF3D3100D6B5A0 /* PieceColor.swift in Sources */,
 				5C56C8EE2ADB755F00A7ECE0 /* ContentView.swift in Sources */,
+				5C5BFD682AECD08700D6B5A0 /* Pawn.swift in Sources */,
 				5C56C8EC2ADB755F00A7ECE0 /* ChessGameApp.swift in Sources */,
+				5C5BFD642AECC87F00D6B5A0 /* Piece.swift in Sources */,
+				5C5BFD612AECC34300D6B5A0 /* Board.swift in Sources */,
+				5C5BFD662AECC95F00D6B5A0 /* PieceType.swift in Sources */,
+				5C5BFD5F2AECC32300D6B5A0 /* Position.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5BFD622AECC64A00D6B5A0 /* Board.swift in Sources */,
 				5C5BFD582AECC17C00D6B5A0 /* ChessGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
