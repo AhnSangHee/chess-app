@@ -24,6 +24,8 @@
 		5C5BFD732AEF526D00D6B5A0 /* PieceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD652AECC95F00D6B5A0 /* PieceType.swift */; };
 		5C5BFD742AEF526F00D6B5A0 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD5E2AECC32300D6B5A0 /* Position.swift */; };
 		5C5BFD752AEF527600D6B5A0 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD672AECD08700D6B5A0 /* Pawn.swift */; };
+		5C5BFD772AF10FA500D6B5A0 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD762AF10FA500D6B5A0 /* Rank.swift */; };
+		5C5BFD792AF10FB300D6B5A0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD782AF10FB300D6B5A0 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		5C5BFD652AECC95F00D6B5A0 /* PieceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceType.swift; sourceTree = "<group>"; };
 		5C5BFD672AECD08700D6B5A0 /* Pawn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pawn.swift; sourceTree = "<group>"; };
 		5C5BFD6D2AEF3D3100D6B5A0 /* PieceColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceColor.swift; sourceTree = "<group>"; };
+		5C5BFD762AF10FA500D6B5A0 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		5C5BFD782AF10FB300D6B5A0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				5C56C8F12ADB756000A7ECE0 /* Preview Content */,
 				5C5BFD5E2AECC32300D6B5A0 /* Position.swift */,
 				5C5BFD602AECC34300D6B5A0 /* Board.swift */,
+				5C5BFD762AF10FA500D6B5A0 /* Rank.swift */,
+				5C5BFD782AF10FB300D6B5A0 /* File.swift */,
 			);
 			path = ChessGame;
 			sourceTree = "<group>";
@@ -242,7 +248,9 @@
 				5C5BFD682AECD08700D6B5A0 /* Pawn.swift in Sources */,
 				5C56C8EC2ADB755F00A7ECE0 /* ChessGameApp.swift in Sources */,
 				5C5BFD642AECC87F00D6B5A0 /* Piece.swift in Sources */,
+				5C5BFD792AF10FB300D6B5A0 /* File.swift in Sources */,
 				5C5BFD612AECC34300D6B5A0 /* Board.swift in Sources */,
+				5C5BFD772AF10FA500D6B5A0 /* Rank.swift in Sources */,
 				5C5BFD662AECC95F00D6B5A0 /* PieceType.swift in Sources */,
 				5C5BFD5F2AECC32300D6B5A0 /* Position.swift in Sources */,
 			);
