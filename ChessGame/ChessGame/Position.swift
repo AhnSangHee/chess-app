@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Position {
+struct Position: Equatable {
   let rank: Rank
   let file: File
 }

@@ -9,5 +9,5 @@ import Foundation
 
 struct Piece {
   var position: Position
-  var type: PieceType
+  let type: PieceType
 }
