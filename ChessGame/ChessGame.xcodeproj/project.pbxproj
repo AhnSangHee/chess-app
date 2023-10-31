@@ -26,6 +26,11 @@
 		5C5BFD752AEF527600D6B5A0 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD672AECD08700D6B5A0 /* Pawn.swift */; };
 		5C5BFD772AF10FA500D6B5A0 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD762AF10FA500D6B5A0 /* Rank.swift */; };
 		5C5BFD792AF10FB300D6B5A0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD782AF10FB300D6B5A0 /* File.swift */; };
+		5C5BFD7B2AF1109300D6B5A0 /* Bishop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD7A2AF1109300D6B5A0 /* Bishop.swift */; };
+		5C5BFD7C2AF1109600D6B5A0 /* Bishop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD7A2AF1109300D6B5A0 /* Bishop.swift */; };
+		5C5BFD7E2AF1113400D6B5A0 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD7D2AF1113400D6B5A0 /* Knight.swift */; };
+		5C5BFD802AF1114700D6B5A0 /* Rook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD7F2AF1114700D6B5A0 /* Rook.swift */; };
+		5C5BFD822AF1116C00D6B5A0 /* Queen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BFD812AF1116C00D6B5A0 /* Queen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,10 @@
 		5C5BFD6D2AEF3D3100D6B5A0 /* PieceColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceColor.swift; sourceTree = "<group>"; };
 		5C5BFD762AF10FA500D6B5A0 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
 		5C5BFD782AF10FB300D6B5A0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5C5BFD7A2AF1109300D6B5A0 /* Bishop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop.swift; sourceTree = "<group>"; };
+		5C5BFD7D2AF1113400D6B5A0 /* Knight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		5C5BFD7F2AF1114700D6B5A0 /* Rook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rook.swift; sourceTree = "<group>"; };
+		5C5BFD812AF1116C00D6B5A0 /* Queen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +148,10 @@
 			isa = PBXGroup;
 			children = (
 				5C5BFD672AECD08700D6B5A0 /* Pawn.swift */,
+				5C5BFD7A2AF1109300D6B5A0 /* Bishop.swift */,
+				5C5BFD7D2AF1113400D6B5A0 /* Knight.swift */,
+				5C5BFD7F2AF1114700D6B5A0 /* Rook.swift */,
+				5C5BFD812AF1116C00D6B5A0 /* Queen.swift */,
 			);
 			path = PieceType;
 			sourceTree = "<group>";
@@ -245,13 +258,17 @@
 			files = (
 				5C5BFD6E2AEF3D3100D6B5A0 /* PieceColor.swift in Sources */,
 				5C56C8EE2ADB755F00A7ECE0 /* ContentView.swift in Sources */,
+				5C5BFD822AF1116C00D6B5A0 /* Queen.swift in Sources */,
 				5C5BFD682AECD08700D6B5A0 /* Pawn.swift in Sources */,
+				5C5BFD7B2AF1109300D6B5A0 /* Bishop.swift in Sources */,
+				5C5BFD7E2AF1113400D6B5A0 /* Knight.swift in Sources */,
 				5C56C8EC2ADB755F00A7ECE0 /* ChessGameApp.swift in Sources */,
 				5C5BFD642AECC87F00D6B5A0 /* Piece.swift in Sources */,
 				5C5BFD792AF10FB300D6B5A0 /* File.swift in Sources */,
 				5C5BFD612AECC34300D6B5A0 /* Board.swift in Sources */,
 				5C5BFD772AF10FA500D6B5A0 /* Rank.swift in Sources */,
 				5C5BFD662AECC95F00D6B5A0 /* PieceType.swift in Sources */,
+				5C5BFD802AF1114700D6B5A0 /* Rook.swift in Sources */,
 				5C5BFD5F2AECC32300D6B5A0 /* Position.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +281,7 @@
 				5C5BFD752AEF527600D6B5A0 /* Pawn.swift in Sources */,
 				5C5BFD622AECC64A00D6B5A0 /* Board.swift in Sources */,
 				5C5BFD742AEF526F00D6B5A0 /* Position.swift in Sources */,
+				5C5BFD7C2AF1109600D6B5A0 /* Bishop.swift in Sources */,
 				5C5BFD732AEF526D00D6B5A0 /* PieceType.swift in Sources */,
 				5C5BFD582AECC17C00D6B5A0 /* ChessGameTests.swift in Sources */,
 				5C5BFD712AEF526100D6B5A0 /* Piece.swift in Sources */,

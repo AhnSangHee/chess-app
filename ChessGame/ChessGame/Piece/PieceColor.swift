@@ -11,13 +11,4 @@ import SwiftUI
 enum PieceColor {
   case black
   case white
-  
-  var shape: String {
-    switch self {
-    case .black:
-      return "♟"
-    case .white:
-      return "♙"
-    }
-  }
 }

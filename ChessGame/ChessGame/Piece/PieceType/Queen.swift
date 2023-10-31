@@ -1,21 +1,21 @@
 //
-//  Pawn.swift
+//  Queen.swift
 //  ChessGame
 //
-//  Created by 안상희 on 10/28/23.
+//  Created by 안상희 on 10/31/23.
 //
 
 import Foundation
 
-struct Pawn: PieceType {
+struct Queen: PieceType {
   var color: PieceColor
-  var score: Int = 1
+  var score: Int = 9
   var symbol: String {
     switch color {
     case .black:
-      return "♟"
+      return "♛"
     case .white:
-      return "♙"
+      return "♕"
     }
   }
 }
