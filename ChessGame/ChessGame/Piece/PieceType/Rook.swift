@@ -18,4 +18,18 @@ struct Rook: PieceType {
       return "♖"
     }
   }
+  
+  func availableInitialPositions() -> [Position] {
+    if color == .black {
+      [
+        Position(rank: .one, file: .A),
+        Position(rank: .one, file: .H)
+      ]
+    } else {
+      [
+        Position(rank: .eight, file: .A),
+        Position(rank: .eight, file: .H)
+      ]
+    }
+  }
 }

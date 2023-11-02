@@ -18,4 +18,18 @@ struct Knight: PieceType {
       return "♘"
     }
   }
+  
+  func availableInitialPositions() -> [Position] {
+    if color == .black {
+      [
+        Position(rank: .one, file: .B),
+        Position(rank: .one, file: .G)
+      ]
+    } else {
+      [
+        Position(rank: .eight, file: .B),
+        Position(rank: .eight, file: .G)
+      ]
+    }
+  }
 }

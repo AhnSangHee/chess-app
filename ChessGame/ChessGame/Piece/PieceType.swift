@@ -11,4 +11,5 @@ protocol PieceType {
   var color: PieceColor { get set }
   var score: Int { get set }
   var symbol: String { get }
+  func availableInitialPositions() -> [Position]
 }

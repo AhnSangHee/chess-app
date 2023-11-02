@@ -18,4 +18,8 @@ struct Queen: PieceType {
       return "♕"
     }
   }
+  
+  func availableInitialPositions() -> [Position] {
+    return color == .black ? [Position(rank: .one, file: .E)] : [Position(rank: .eight, file: .E)]
+  }
 }

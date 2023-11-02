@@ -18,4 +18,18 @@ struct Bishop: PieceType {
       return "♗"
     }
   }
+  
+  func availableInitialPositions()  -> [Position] {
+    if color == .black {
+      [
+        Position(rank: .one, file: .C),
+        Position(rank: .one, file: .F)
+      ]
+    } else {
+      [
+        Position(rank: .eight, file: .C),
+        Position(rank: .eight, file: .F)
+      ]
+    }
+  }
 }

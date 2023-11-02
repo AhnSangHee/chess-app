@@ -42,8 +42,16 @@ struct Board {
   
   // 2-rank에는 흑백 체스말, 7-rank에는 백색 체스말로 초기화
   private mutating func initChessBoard() {
-    map[Rank.two.rawValue] = Array(repeating: Pawn(color: .black).symbol, count: maxSize)
-    map[Rank.seven.rawValue] = Array(repeating: Pawn(color: .white).symbol, count: maxSize)
+    let blackPositions = Pawn(color: .black).availableInitialPositions()
+    let whitePositions = Pawn(color: .white).availableInitialPositions()
+    
+    for position in blackPositions {
+      map[position.rank.rawValue][position.file.rawValue] = Pawn(color: .black).symbol
+    }
+    
+    for position in whitePositions {
+      map[position.rank.rawValue][position.file.rawValue] = Pawn(color: .white).symbol
+    }
   }
   
   // 백색은 큰 rank에서 더 작은 rank로 움직일 수 있고, 흑색은 작은 rank에서 더 큰 rank로 움직일 수 있다.
